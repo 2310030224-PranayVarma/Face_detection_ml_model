@@ -3,7 +3,7 @@ from tensorflow.keras.models import load_model
 import numpy as np
 
 def predict_webcam():
-    model = load_model('/workspaces/Gender_Detection_System_ML/face_detection_system/models/final_face_detection_model.keras')  # Load the .keras model
+    model = load_model('/workspaces/Gender_Detection_System_ML/face_detection_system/models/gender_detection_model.keras')  # Load the .keras model
     cap = cv2.VideoCapture(0)
 
     while True:
@@ -12,7 +12,7 @@ def predict_webcam():
         img_array = np.expand_dims(img, axis=0) / 255.0
         
         prediction = model.predict(img_array)
-        label = "Female" if prediction[0] > 0.5 else "Male"
+        label = "Female" if prediction[0] <= 0.5 else "Male"
         
         cv2.putText(frame, label, (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
         cv2.imshow('Webcam', frame)
