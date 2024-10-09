@@ -3,7 +3,13 @@
 This repository contains a gender detection system built using TensorFlow and Keras, designed to classify faces as male or female. The project includes model training, prediction scripts, and a graphical user interface (GUI) for easy interaction. The model achieved an accuracy of **99.08%** during training.
 
 ![Accuracy Plot](face_detection_system/models/accuracy_plot.png) <!-- Replace with the actual path to your accuracy plot -->
+**Accurracy Plot Graph**
+
+
+
 ![Losses Plot](face_detection_system/models/loss_plot.png) <!-- Replace with the actual path to your losses plot -->
+**Losses Plot Graph while Training**
+
 
 ## Table of Contents
 
