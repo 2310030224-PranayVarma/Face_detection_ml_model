@@ -119,4 +119,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **TensorFlow**: Open-source machine learning framework.
 - **OpenCV**: Library for computer vision tasks.
 - **Kaggle Dataset**: [Male and Female Faces Dataset](https://www.kaggle.com/datasets/ashwingupta3012/male-and-female-faces-dataset/)
-```
+
