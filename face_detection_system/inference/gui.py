@@ -1,37 +1,12 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
-from predict import predict_image, predict_video  # Import both functions
-import cv2
+from predict import predict_image
 
 def upload_image():
-    if file_path := filedialog.askopenfilename(
-        filetypes=[("Image Files", "*.jpg;*.jpeg;*.png")]
-    ):
+    file_path = filedialog.askopenfilename()
+    if file_path:  # Check if a file was selected
         result = predict_image(file_path)
         messagebox.showinfo("Prediction Result", result)
-
-def upload_video():
-    if file_path := filedialog.askopenfilename(
-        filetypes=[("Video Files", "*.mp4;*.avi")]
-    ):
-        result = predict_video(file_path)
-        messagebox.showinfo("Prediction Result", result)
-
-def use_camera():
-    cap = cv2.VideoCapture(0)  # Use the default camera
-    if not cap.isOpened():
-        messagebox.showerror("Error", "Could not open webcam")
-        return
-    
-    ret, frame = cap.read()
-    if ret:
-        cv2.imwrite("temp_image.jpg", frame)  # Save the captured frame as an image
-        result = predict_image("temp_image.jpg")  # Predict using the saved image
-        messagebox.showinfo("Prediction Result", result)
-    else:
-        messagebox.showerror("Error", "Failed to capture image")
-    
-    cap.release()
 
 # Create the main window
 root = tk.Tk()
