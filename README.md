@@ -1,4 +1,4 @@
-#### Gender Detection System
+<h1 style="text-align: center;"><strong>Gender Detection System Using ML and CNN</strong></h1>
 
 This repository contains a gender detection system built using TensorFlow and Keras, designed to classify faces as male or female. The project includes model training, prediction scripts, and a graphical user interface (GUI) for easy interaction. The model achieved an accuracy of **99.08%** during training.
 
