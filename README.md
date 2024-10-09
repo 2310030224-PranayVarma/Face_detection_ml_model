@@ -8,6 +8,8 @@ Here's an improved version of your README.md file for the Gender Detection Syste
 
 This repository contains a gender detection system built using TensorFlow and Keras, designed to classify faces as male or female. The project includes model training, prediction scripts, and a graphical user interface (GUI) for easy interaction. The model achieved an accuracy of **99.08%** during training.
 
+![Accuracy Plot](/workspaces/Gender_Detection_System_ML/face_detection_system/models/accuracy_plot.png) <!-- Replace with the actual path to your accuracy plot -->
+![Losses Plot](/workspaces/Gender_Detection_System_ML/face_detection_system/models/loss_plot.png) <!-- Replace with the actual path to your losses plot -->
 <<<<<<< HEAD
 ![Accuracy Plot](face_detection_system/models/accuracy_plot.png) <!-- Replace with the actual path to your accuracy plot -->
 ![Losses Plot](face_detection_system/models/loss_plot.png) <!-- Replace with the actual path to your losses plot -->
@@ -111,7 +113,7 @@ To test the trained model, you can use the `predict.py` or `webcam_predict.py` s
 2. **Make Predictions**:
    - Use the GUI to upload an image or capture a photo using your webcam.
    - The model will classify the face as male or female.
-   ![IMAGE PREDICTION OF A FEMALE IMG DATA] (image.png)
+   ![female data detection](image-2.png)
 ## Application and Usages
 
 - **Real-time Gender Detection**: Utilize the webcam for live detection.
@@ -132,16 +134,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **TensorFlow**: Open-source machine learning framework.
 - **OpenCV**: Library for computer vision tasks.
 - **Kaggle Dataset**: [Male and Female Faces Dataset](https://www.kaggle.com/datasets/ashwingupta3012/male-and-female-faces-dataset/)
-
-=======
-
-- **TensorFlow**: Open-source machine learning framework.
-- **OpenCV**: Library for computer vision tasks.
-- **Kaggle Dataset**: [Male and Female Faces Dataset](https://www.kaggle.com/datasets/ashwingupta3012/male-and-female-faces-dataset/)
-```
-
-### Notes:
-- Replace `path/to/accuracy_plot.png` and `path/to/losses_plot.png` with the actual paths to your accuracy and loss plots.
-- Ensure all links and descriptions accurately reflect your project structure and details.
-- Feel free to modify any section as per your preferences!
->>>>>>> 218a964 (final push)
