@@ -1,22 +1,9 @@
-<<<<<<< HEAD
-=======
-Here's an improved version of your README.md file for the Gender Detection System project. I've incorporated all the elements you mentioned, including sections on accuracy, application usage, and detailed explanations of each file's purpose.
-
-```markdown
->>>>>>> 218a964 (final push)
-# Gender Detection System
+#### Gender Detection System
 
 This repository contains a gender detection system built using TensorFlow and Keras, designed to classify faces as male or female. The project includes model training, prediction scripts, and a graphical user interface (GUI) for easy interaction. The model achieved an accuracy of **99.08%** during training.
 
-![Accuracy Plot](/workspaces/Gender_Detection_System_ML/face_detection_system/models/accuracy_plot.png) <!-- Replace with the actual path to your accuracy plot -->
-![Losses Plot](/workspaces/Gender_Detection_System_ML/face_detection_system/models/loss_plot.png) <!-- Replace with the actual path to your losses plot -->
-<<<<<<< HEAD
 ![Accuracy Plot](face_detection_system/models/accuracy_plot.png) <!-- Replace with the actual path to your accuracy plot -->
 ![Losses Plot](face_detection_system/models/loss_plot.png) <!-- Replace with the actual path to your losses plot -->
-=======
-![Accuracy Plot](path/to/accuracy_plot.png) <!-- Replace with the actual path to your accuracy plot -->
-![Losses Plot](path/to/losses_plot.png) <!-- Replace with the actual path to your losses plot -->
->>>>>>> 218a964 (final push)
 
 ## Table of Contents
 
@@ -129,8 +116,6 @@ Contributions are welcome! If you have suggestions for improvements or features,
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Credits
-<<<<<<< HEAD
-
 - **TensorFlow**: Open-source machine learning framework.
 - **OpenCV**: Library for computer vision tasks.
 - **Kaggle Dataset**: [Male and Female Faces Dataset](https://www.kaggle.com/datasets/ashwingupta3012/male-and-female-faces-dataset/)

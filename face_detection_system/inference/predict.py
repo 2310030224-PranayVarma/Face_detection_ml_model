@@ -4,7 +4,7 @@ from keras.preprocessing import image
 import cv2
 
 # Load the model globally to avoid loading it multiple times
-model = load_model(r'C:\Users\npran\OneDrive\Desktop\Gender_Detection_System_ML-main\Gender_Detection_System_ML-main\face_detection_system\models\gender_detection_model.keras')
+model = load_model('workspace\Gender_Detection_System_ML-main\face_detection_system\models\gender_detection_model.keras')
 
 def predict_image(img_path):
     img = image.load_img(img_path, target_size=(128, 128))
