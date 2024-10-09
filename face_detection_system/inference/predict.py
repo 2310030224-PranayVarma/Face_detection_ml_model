@@ -1,10 +1,6 @@
 import numpy as np
 from tensorflow.keras.models import load_model
-from keras.preprocessing import image
-import cv2
-
-# Load the model globally to avoid loading it multiple times
-model = load_model(r'path\Gender_Detection_System_ML-main\face_detection_system\models\gender_detection_model.keras')
+from tensorflow.keras.preprocessing import image
 
 def predict_image(img_path):
     img = image.load_img(img_path, target_size=(128, 128))

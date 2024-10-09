@@ -111,7 +111,7 @@ To test the trained model, you can use the `predict.py` or `webcam_predict.py` s
 2. **Make Predictions**:
    - Use the GUI to upload an image or capture a photo using your webcam.
    - The model will classify the face as male or female.
-![Output of Prediction](image.png)
+   ![IMAGE PREDICTION OF A FEMALE IMG DATA] (image.png)
 ## Application and Usages
 
 - **Real-time Gender Detection**: Utilize the webcam for live detection.
